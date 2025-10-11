@@ -3,3 +3,10 @@
 2. rem/em and vh/vw
 3. calc(), min(), max(), clamp()
 */
+
+@font-face {
+    font-family: "Ultra Regular";
+    src: url(./fonts/Ultra-Regular.woff2) format(".woff2");
+    font-weight: 100 900;
+    font-style: normal italic;
+}
