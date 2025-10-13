@@ -45,6 +45,7 @@ body {
     box-shadow: inset 0 2px 6px rgba(255, 255, 255, 0.05), inset 0 -3px 8px rgba(0, 0, 0, 0.6);
 }
 
+/* Content displayed by the screen calculator */
 span {
     margin-right: 18px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
