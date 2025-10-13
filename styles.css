@@ -55,9 +55,9 @@ span {
 }
 
 .main-display {
-    font-weight: bold;
     margin-bottom: 20px;
     font-size: 40px;
+    font-weight: bold;
 }
 
 .buttons {
