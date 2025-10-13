@@ -100,8 +100,8 @@ button {
 }
 
 .digits:hover {
-    background-color: #3c3c3c;
     transform: translateY(-2px);
+    background-color: #3c3c3c;
 }
 
 .operator {
