@@ -24,11 +24,11 @@ body {
 }
 
 .calculator {
-    background-color: #1e1e1e;
     width: 340px;
     height: 600px;
-    border-radius: 20px;
     padding: 20px;
+    border-radius: 20px;
+    background-color: #1e1e1e;
 }
 
 .screen {
