@@ -1,5 +1,4 @@
 /* 
-1. Emmet Wrap and Remove Tag
 2. rem/em and vh/vw
 3. calc(), min(), max(), clamp()
 */
@@ -19,4 +18,111 @@
 body {
     background-color: #121212;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    background-color: #1e1e1e;
+    width: 340px;
+    height: 600px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.screen {
+    height: 140px;
+    background-color: #181818;
+    border-radius: 18px;
+    margin-bottom: 20px;
+    box-shadow: inset 0 2px 6px rgba(255, 255, 255, 0.05), inset 0 -3px 8px rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+span {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 18px;
+}
+
+.sub-display {
+    color: grey;
+}
+
+.main-display {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+button {
+    padding: 18px;
+    border-radius: 12px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    font-family: "Ultra Regular", "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.15s ease;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4)
+}
+
+.general {
+    width: 66px;
+    height: 66px;
+}
+
+.clear {
+    background-color: #d83b3b;
+}
+
+.clear:hover {
+    background-color: #ff4d4d;
+    transform: translateY(-2px);
+}
+
+.digits {
+    background-color: #2d2d2d;
+}
+
+.digits:hover {
+    background-color: #3c3c3c;
+    transform: translateY(-2px);
+}
+
+.operator {
+    background-color: #0078ff;
+}
+
+.operator:hover {
+    background-color: #339aff;
+    transform: translateY(-2px);
+}
+
+.equal {
+    background-color: #1ebc61;
+}
+
+.equal:hover {
+    background-color: #24d46d;
+    transform: translateY(-2px);
+}
+
+.special {
+    width: 222px;
 }
