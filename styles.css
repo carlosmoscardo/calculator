@@ -109,8 +109,8 @@ button {
 }
 
 .operator:hover {
-    background-color: #339aff;
     transform: translateY(-2px);
+    background-color: #339aff;
 }
 
 .equal {
