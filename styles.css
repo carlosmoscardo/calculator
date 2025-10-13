@@ -118,8 +118,8 @@ button {
 }
 
 .equal:hover {
-    background-color: #24d46d;
     transform: translateY(-2px);
+    background-color: #24d46d;
 }
 
 .special {
