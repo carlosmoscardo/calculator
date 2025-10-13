@@ -61,6 +61,7 @@ span {
     font-weight: bold;
 }
 
+/* Calculator buttons */
 .buttons {
     display: flex;
     flex-wrap: wrap;
