@@ -11,6 +11,11 @@
     font-style: normal italic;
 }
 
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #121212;
 }
