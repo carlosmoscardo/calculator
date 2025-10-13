@@ -79,7 +79,6 @@ button {
     font-family: "Ultra Regular", "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-size: 22px;
     color: white;
-    
 }
 
 .general {
@@ -92,8 +91,8 @@ button {
 }
 
 .clear:hover {
-    background-color: #ff4d4d;
     transform: translateY(-2px);
+    background-color: #ff4d4d;
 }
 
 .digits {
