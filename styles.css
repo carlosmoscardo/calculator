@@ -11,8 +11,8 @@
 }
 
 * {
-    margin: 0;
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
@@ -67,19 +67,19 @@ span {
 }
 
 button {
-    padding: 18px;
-    border-radius: 12px;
-    font-size: 16px;
-    border: none;
-    color: white;
-    font-family: "Ultra Regular", "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    font-size: 22px;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: transform 0.15s ease;
+    padding: 18px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
     cursor: pointer;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4)
+    transition: transform 0.15s ease;
+    font-family: "Ultra Regular", "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: white;
+    
 }
 
 .general {
