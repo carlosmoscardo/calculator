@@ -14,7 +14,7 @@ function divide(a, b) {
     return a / b;
 }
 
-// Store data of each operation component (e.g.: 2 + 2; num1 operator num2)
+// Store data of each operation component (e.g.: 2 + 2 => num1 operator num2)
 let num1,
     operator,
     num2;
@@ -31,3 +31,12 @@ function operate(num1, operator, num2) {
     }
 }
 
+// 1. Definir qué función lleva a cabo cada botón de la calculadora cuando es pulsado (hacer testing con console.log)
+
+
+
+
+
+
+
+// 2. Hacer display en la pantalla de la calculadora de los dígitos [0, 9], decimales (.) y operadores (+, -, *, /)
