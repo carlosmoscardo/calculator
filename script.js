@@ -31,12 +31,7 @@ function operate(num1, operator, num2) {
     }
 }
 
-// 1. Definir qué función lleva a cabo cada botón de la calculadora cuando es pulsado (hacer testing con console.log)
+// Haz funciones que muestren los números en pantalla cuando pulses los botones
+// 1. 
 
-
-
-
-
-
-
-// 2. Hacer display en la pantalla de la calculadora de los dígitos [0, 9], decimales (.) y operadores (+, -, *, /)
+// Además, guarda ese número en una variable para poder usarlo después.
