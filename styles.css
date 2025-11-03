@@ -1,13 +1,14 @@
+/* ===== CSS Reset ===== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 @font-face {
     font-family: "Ultra Regular";
     src: url(./fonts/Ultra-Regular.woff2) format(".woff2");
     font-weight: 100 900;
     font-style: normal italic;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
 }
 
 body {
