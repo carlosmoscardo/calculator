@@ -12,6 +12,7 @@
     font-style: normal italic;
 }
 
+/* ===== Base Layout ===== */
 body {
     display: flex;
     justify-content: center;
