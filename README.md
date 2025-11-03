@@ -6,5 +6,5 @@ Use your mouse or keyboard to enter numbers and operators. Press `=` to display 
 
 ## Technologies Used
 - Advanced HTML (favicons, semantic labels, a11y elements)
-- Intermediate CSS (custom fonts, resets, relative units, decorative properties, transitions, transforms, pseudo-classes)
+- Intermediate CSS (custom fonts, resets, relative units, decorative properties, transitions, transforms, pseudo-classes, comments)
 - Basic JS ()
