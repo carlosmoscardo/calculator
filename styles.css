@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+/* ===== Typography ===== */
 @font-face {
     font-family: "Ultra Regular";
     src: url(./fonts/Ultra-Regular.woff2) format(".woff2");
