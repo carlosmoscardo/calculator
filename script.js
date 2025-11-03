@@ -1,3 +1,4 @@
+// Handle each math operation
 function add(a, b) {
     return a + b;
 }
@@ -19,14 +20,15 @@ let num1,
     operator,
     num2;
 
+// Perform each math operation
 function operate(num1, operator, num2) {
-    if (operator === "+") {
+    if (operator === "+") { // Pendiente de cambiar el operator dentro del IF
         return add(num1, num2);
-    } else if (operator === "-") {
+    } else if (operator === "-") { // Pendiente de cambiar el operator dentro del IF
         return subtract(num1, num2);
-    } else if (operator === "*") {
+    } else if (operator === "*") { // Pendiente de cambiar el operator dentro del IF
         return multiply(num1, num2);
-    } else if (operator === "/") {
+    } else if (operator === "/") { // Pendiente de cambiar el operator dentro del IF
         return divide(num1, num2);
     }
 }
